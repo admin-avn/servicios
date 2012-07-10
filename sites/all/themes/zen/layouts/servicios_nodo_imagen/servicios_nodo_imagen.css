@@ -1,0 +1,19 @@
+.contenedor-nodo {
+	position: relative;
+	width: 100%;
+	margin: 0;
+}
+
+.izquierda {
+	float: left;
+	width: 79%;
+}
+
+.derecha {
+	float: left;
+	width: 21%;
+}
+
+.clear-float {
+	clear: both;
+}

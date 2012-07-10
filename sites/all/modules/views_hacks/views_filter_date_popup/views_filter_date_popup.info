@@ -1,0 +1,13 @@
+name = Views filter date_popup
+description = It allow you use date_popup in views date filters, and choose date format
+core = 6.x
+dependencies[] = views
+dependencies[] = date_popup
+package = Views
+
+
+; Information added by drupal.org packaging script on 2011-06-03
+version = "6.x-1.0-beta2"
+core = "6.x"
+project = "views_filter"
+datestamp = "1307120522"

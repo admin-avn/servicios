@@ -1,0 +1,9 @@
+.contenedor-nodo {
+	position: relative;
+	width: 100%;
+	margin: 0;
+}
+
+.clear-float {
+	clear: both;
+}

@@ -1,0 +1,45 @@
+/* Menú */
+
+@font-face {
+	font-family: Myriad;
+	src: url("/sites/all/themes/servicios/fonts/MyriadPro-Semibold.otf");
+}
+
+#block-nice_menus-1,
+#block-nice_menus-2 {
+	margin-bottom: 0;
+}
+
+#nice-menu-1,
+#nice-menu-2 {
+	background: url("/sites/all/themes/servicios/images/background-menu-principal.png") repeat-x;
+	height: 33px;
+	line-height: 39px;
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+#nice-menu-1 li,
+#nice-menu-2 li {
+	background: url("/sites/all/themes/servicios/images/divisor.jpg") right 0px no-repeat;
+	display: table-cell;
+}
+
+#nice-menu-1 li.active-trail,
+#nice-menu-2 li.active-trail {
+	background: url("/sites/all/themes/servicios/images/nice-menu-active.png") repeat-x;
+}
+
+#nice-menu-1 li.active-trail a,
+#nice-menu-2 li.active-trail a {
+	color: #454545;
+}
+
+#nice-menu-1 li a,
+#nice-menu-2 li a {
+	color: white;
+	font-family: Myriad;
+	font-size: 14px;
+	text-decoration: none;
+	padding: 0 5px;
+}

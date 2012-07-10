@@ -1,0 +1,33 @@
+<?php
+
+/**
+ * Implementation of hook_views_api().
+ */
+function views_display_block_path_views_api() {
+  return array(
+    'api' => '2.0',
+  );
+}
+
+
+function views_filter_date_popup_form_alter(&$form, $form_state, $form_id) {
+
+  if (('views_ui_config_item_form' == $form_id) && !empty($form['options']['expose'])) {
+    if (isset($form['options']['value']['type']['#options']) && array_key_exists('date', $form['options']['value']['type']['#options'])) {
+       $form['options']['value']['type']['#options']['user_defined_date'] = t('A user defined data using PHP date() wildcards');
+       $form['options']['value']['date_format'] = array(
+         '#type' => 'textfield',
+         '#title' => t('Date_format'),
+         '#default_value' => !empty($form_state['handler']->options['value']['date_format']) ? $form_state['handler']->options['value']['date_format'] : 'Y/m/d',
+       );
+    }
+  }
+  if ('views_exposed_form' == $form_id) {
+    foreach ($form_state['view']->filter as $field => $filter) {
+      if ($filter->options['value']['type']=='user_defined_date') {
+        $form[$filter->options['id']]['#type'] = 'date_popup';
+        $form[$filter->options['id']]['#date_format'] = $filter->options['value']['date_format'];
+      }
+    }
+  }
+}

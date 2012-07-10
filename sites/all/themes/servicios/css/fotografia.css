@@ -1,0 +1,411 @@
+.contenedor-fotografia {
+	background-color: #dadada;
+	padding-bottom: 5px;
+}
+
+#ultimas-fotografias,
+#principal {
+	float: left;
+}
+
+.destacado-portada,
+.principal-portada {
+	height: 246px;
+}
+
+#agenda-fotografica-titulo {
+	position: absolute;
+	display: block;
+	height: 49px;
+	width: 173px;
+	background: url("/sites/all/themes/servicios/images/background-fotografia-titulo.png") repeat-x;
+	margin: 0;
+	padding: 0;
+	padding-left: 10px;
+	margin-bottom: 2px;
+	top: 16px;
+	left: 9px;
+}
+
+#agenda-fotografica {
+	display: block;
+	height: 241px;
+	background-color: #777777;
+	width: 183px;
+	top: 66px;
+	position: absolute;
+	left: 9px;
+}
+
+#agenda-fotografica-titulo .titulo {
+	color: #01b2e1;
+	margin-top: 5px;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+#agenda-fotografica-titulo .fecha {
+	color: white;
+	font-size: 11px;
+	font-weight: bold;
+}
+
+.view-display-id-block_4 .view-content .titulos-agenda,
+.view-display-id-block_4 .view-content .date-display-single {
+	font-family: Verdana;
+	font-size: 13px;
+	font-weight: bold;
+}
+
+.view-display-id-block_4 .view-content .date-display-single {
+	color: #cacaca;
+}
+
+.agenda-fotografica-titulo {
+	color: #222222;
+	font-family: Verdana;
+	font-size: 11px;
+	font-weight: bold;
+	padding: 0 5px;
+}
+
+#ultimas-fotografias {
+	margin: 16px 9px 0 202px;
+	-webkit-box-shadow: 3px 3px 10px #333;
+	-moz-box-shadow: 3px 3px 10px #333;
+	-o-box-shadow: 3px 3px 10px #333;
+}
+
+#principal {
+	margin: 16px 9px 0 3px;
+	-webkit-box-shadow: 3px 3px 10px #333;
+	-moz-box-shadow: 3px 3px 10px #333;
+	-o-box-shadow: 3px 3px 10px #333;
+}
+
+#ultimas-fotografias .ultimas-fotografias,
+#principal .principal {
+	height: 281px;
+	width: 364px;
+	background-color: #302e2f;
+	padding: 5px 7px 5px 6px;
+}
+
+#ultimas-fotografias a,
+#principal .principal-titulo a {
+	color: #01b2e1;
+	font-family: Verdana;
+	font-size: 15px;
+	font-weight: bold;
+	line-height: 34px;
+	text-decoration: none;
+}
+
+#principal .principal {
+	position: relative;
+}
+
+#principal .descargar-album {
+	position: absolute;
+	right: 10px;
+	bottom: 15px;
+}
+
+.destacados .descargar-album a,
+#principal .descargar-album a {
+	color: white;
+	font-family: Verdana;
+	font-size: 9px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+#destacados {
+	float: left;
+	margin: 5px 2px 5px 9px;
+	width: 183px;
+	-webkit-box-shadow: 3px 3px 10px #333;
+	-moz-box-shadow: 3px 3px 10px #333;
+	-o-box-shadow: 3px 3px 10px #333;
+}
+
+#destacados .destacados {
+	background-color: #302e2f;
+	padding: 9px;
+	height: 205px;
+}
+
+#destacados .destacados-taxonomia {
+	color: #01b2e1;
+	font-family: Verdana;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+#destacados .destacados-titulo a {
+	color: white;
+	font-family: Verdana;
+	font-size: 11px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+#destacados .destacados-fecha,
+#destacados .destacados-hora {
+	color: #c7c7c7;
+	font-family: Verdana;
+	font-size: 9px;
+	font-weight: bold;
+}
+
+.foto-cuadricula {
+	background-color: #dadada;
+}
+
+.ultimas-noticias .foto,
+.view-display-id-block_5 .foto,
+.view-display-id-block_7 .foto {
+	background-color: #302e2e;
+	float: left;
+	height: 160px;
+	width: 177px;
+ 	margin: 5px 4px 5px 4px;
+	padding: 5px 5px;
+	-webkit-box-shadow: 3px 3px 10px #333;
+	-moz-box-shadow: 3px 3px 10px #333;
+	-o-box-shadow: 3px 3px 10px #333;
+}
+
+.ultimas-noticias .datos,
+.view-display-id-block_5 .foto .datos,
+.view-display-id-block_7 .foto .datos {
+	position: relative;
+}
+
+.ultimas-noticias .datos .fecha,
+.ultimas-noticias .datos .hora,
+.ultimas-noticias .datos .descargar,
+.view-display-id-block_5 .foto .datos .fecha,
+.view-display-id-block_5 .foto .datos .hora,
+.view-display-id-block_5 .foto .datos .titulo,
+.view-display-id-block_5 .foto .datos .descargar,
+.view-display-id-block_7 .foto .datos .fecha,
+.view-display-id-block_7 .foto .datos .hora,
+.view-display-id-block_7 .foto .datos .titulo,
+.view-display-id-block_7 .foto .datos .descargar {
+	color: #c7c7c7;
+	font-family: Verdana;
+	font-size: 9px;
+	font-weight: bold;
+	position: absolute;
+}
+
+.view-display-id-block_5 .foto .datos .titulo,
+.view-display-id-block_7 .foto .datos .titulo {
+	top: 0px;
+	left: 5px;
+}
+
+.ultimas-noticias .datos .fecha,
+.view-display-id-block_5 .foto .datos .fecha,
+.view-display-id-block_7 .foto .datos .fecha {
+	top: 0px;
+	left: 5px;
+}
+
+.ultimas-noticias .datos .hora,
+.view-display-id-block_5 .foto .datos .hora,
+.view-display-id-block_7 .foto .datos .hora {
+	top: 10px;
+	left: 5px;
+}
+
+.ultimas-noticias .datos .descargar,
+.view-display-id-block_5 .foto .datos .descargar,
+.view-display-id-block_7 .foto .datos .descargar {
+	top: 10px;
+	right: 10px;
+}
+
+.banner-fotografia {
+	position: relative;
+	background-color: #302e2f;
+	height: 22px;
+	line-height: 22px;
+	padding-left: 10px;
+}
+
+.banner-fotografia .termino a {
+	color: #01b2e1;
+	font-family: Verdana;
+	font-size: 12px;
+	font-weight: bold;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.banner-fotografia .titulo {
+	color: white;
+	font-family: Verdana;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.foto-vertical {
+	position: relative;
+	background-color: #302e2f;
+	height: 120px;
+	padding: 10px;
+	margin: 10px;
+	-webkit-box-shadow: 3px 3px 10px #333;
+	-moz-box-shadow: 3px 3px 10px #333;
+	-o-box-shadow: 3px 3px 10px #333;
+}
+
+.foto-vertical .miniatura,
+.foto-vertical .leyenda,
+.foto-vertical .autor,
+.foto-vertical .fecha,
+.foto-vertical .hora,
+.foto-vertical .titulo,
+.foto-vertical .descargar {
+	position: absolute;
+}
+
+.foto-vertical .leyenda {
+	left: 200px;
+	padding-right: 10px;
+}
+
+.foto-vertical .autor {
+	left: 200px;
+	bottom: 10px
+}
+
+.foto-vertical .fecha {
+	left: 600px;
+	bottom: 10px
+}
+
+.foto-vertical .hora {
+	left: 600px;
+	bottom: 10px
+}
+
+.foto-vertical .descargar {
+	left: 800px;
+	bottom: 10px
+}
+
+.foto-vertical .leyenda,
+.foto-vertical .autor,
+.foto-vertical .fecha,
+.foto-vertical .hora,
+.foto-vertical .descargar {
+	color: white;
+	font-family: Verdana;
+	font-size: 12px;
+}
+
+.foto-vertical .leyenda span,
+.foto-vertical .autor span,
+.foto-vertical .fecha span,
+.foto-vertical .hora span,
+.foto-vertical .descargar span {
+	color: #01b2e1;
+	font-family: Verdana;
+	font-size: 12px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.foto-vertical .descargar a {
+	color: #01b2e1;
+	font-family: Verdana;
+	font-size: 12px;
+	font-weight: bold;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.banner-fotografia .descargar-album {
+	position: absolute;
+	top: 0px;
+	right: 40px;
+}
+
+.banner-fotografia .descargar-album a {
+	color: white;
+	font-family: Verdana;
+	font-size: 12px;
+	font-weight: bold;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.icono-cuadriculado,
+.icono-vertical {
+	position: absolute;
+	top: 2px;
+	right: 12px;
+}
+
+/* Paginador */
+
+.view-fotografia-files ul.pager,
+.view-fotografia ul.pager {
+	float: right;
+	margin-right: 10px;
+}
+
+.view-fotografia-files ul.pager li,
+.view-fotografia-files ul.pager li a,
+.view-fotografia ul.pager li,
+.view-fotografia ul.pager li a {
+	margin: 0;
+	padding: 0;
+}
+
+.view-fotografia-files ul.pager li a,
+.view-fotografia ul.pager li a {
+	text-decoration: none;
+}
+
+.view-fotografia-files ul.pager li,
+.view-fotografia ul.pager li {
+	background: url("/sites/all/themes/servicios/images/background-paginador.png") bottom repeat-x;
+	border: 1px solid #bbbbbb;
+	display: inline-block;
+}
+
+.view-fotografia-files ul.pager li.pager-current,
+.view-fotografia ul.pager li.pager-current {
+	color: white;
+	background: none;
+	background-color: #647d9b;
+	font-size: .9em;
+	font-weight: normal;
+	height: 19px;
+	padding: 0 3px;
+}
+
+.view-fotografia-files ul.pager li.pager-item,
+.view-fotografia-files ul.pager li.pager-ellipsis,
+.view-fotografia ul.pager li.pager-item,
+.view-fotografia ul.pager li.pager-ellipsis {
+	color: #75767a;
+	font-size: .9em;
+	height: 18px;
+	padding: 0 3px;
+}
+
+.view-fotografia-files ul.pager li.pager-first,
+.view-fotografia-files ul.pager li.pager-previous,
+.view-fotografia-files ul.pager li.pager-next,
+.view-fotografia-files ul.pager li.pager-last,
+.view-fotografia ul.pager li.pager-first,
+.view-fotografia ul.pager li.pager-previous,
+.view-fotografia ul.pager li.pager-next,
+.view-fotografia ul.pager li.pager-last {
+	padding: 0 5px;
+}

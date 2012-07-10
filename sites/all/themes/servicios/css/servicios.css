@@ -1,0 +1,18 @@
+.cintillo-institucional .banner img {
+	width: 980px;
+}
+
+.region-header {
+	position: relative;
+}
+
+#main-wrapper .section h1,
+#main-wrapper #block-user-0 h2.title,
+body.not-logged-in #content-area {
+	display: none;
+}
+
+#block-user-0
+.form-required {
+	display: none;
+}

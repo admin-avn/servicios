@@ -1,0 +1,131 @@
+.video {
+	float: left;
+	-webkit-box-shadow: 3px 3px 10px #333;
+	-moz-box-shadow: 3px 3px 10px #333;
+	-o-box-shadow: 3px 3px 10px #333;
+	width: 960px;
+	margin: 0 10px 10px 10px;
+	background-color: #302E2F;
+}
+
+.video .video-reproductor {
+	padding: 10px;
+	position: relative;
+	float: left;
+	width: 646px;
+	height: 488px;
+}
+
+.video .playbutton {
+	position: absolute;
+	left: 310.5px;
+	top: 231.5px;
+}
+
+.video .descripcion {
+	float: left;
+	width: 284px;
+}
+
+.video .descripcion .titulo {
+	color: #01B2E1;
+	font-family: Verdana;
+	font-size: 15px;
+	font-weight: bold;
+	background-color: #302E2F;
+	margin-top: 10px;
+}
+
+.video .descripcion .contenido p {
+	color: white;
+	font-family: Verdana;
+	font-size: 11px;
+	font-weight: bold;
+}
+
+.video .descripcion .descargar a {
+	color: #01B2E1;
+	font-family: Verdana;
+	font-size: 12px;
+	font-weight: bold;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+#video-miniatura {
+	float: left;
+	margin: 5px 2px 5px 9px;
+	width: 183px;
+	-webkit-box-shadow: 3px 3px 10px #333;
+	-moz-box-shadow: 3px 3px 10px #333;
+	-o-box-shadow: 3px 3px 10px #333;
+}
+
+.video-miniatura {
+	background-color: #302E2F;
+	padding: 9px;
+	height: 205px;
+}
+
+.video-miniatura .categoria {
+	color: #01B2E1;
+	font-family: Verdana;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.video-miniatura .titulo a {
+	color: white;
+	font-family: Verdana;
+	font-size: 11px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.video-miniatura .fecha {
+	color: #C7C7C7;
+	font-family: Verdana;
+	font-size: 9px;
+	font-weight: bold;
+}
+
+.video-admin {
+	background-color: #888B90;
+	margin: 0 !important;
+	width: 100%;
+}
+
+.video-admin tr {
+	background-color: #E9E9E9;
+	border-bottom: 2px solid white;
+}
+
+.video-admin tr td.fecha {
+	text-align: center;
+}
+
+.video-admin tr td.titulo {
+	padding: 10px 0;
+}
+
+.video-admin tr td.titulo a,
+.video-admin tr td.editar a,
+.video-admin tr td.eliminar a {
+	color: black;
+	font-size: 1em;
+	text-decoration: none;
+}
+
+.agregar-video {
+	background-color: #888B90;
+}
+
+.agregar-video a {
+	color: white;
+	background-color: #888B90;
+	font-size: .9em;
+	font-weight: bold;
+	padding-left: 10px;
+	text-decoration: none;
+	text-transform: uppercase;
+}

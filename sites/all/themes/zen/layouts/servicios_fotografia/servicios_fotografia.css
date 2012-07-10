@@ -1,0 +1,14 @@
+.contenedor-fotografia {
+	position: relative;
+	width: 100%;
+	margin: 0;
+}
+
+.arriba,
+.centro {
+	margin-bottom: 5px;
+}
+
+.clear-float {
+	clear: both;
+}

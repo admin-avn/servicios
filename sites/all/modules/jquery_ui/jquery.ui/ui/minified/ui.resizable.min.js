@@ -1,0 +1,1 @@
+jquery.ui.resizable.min.js
