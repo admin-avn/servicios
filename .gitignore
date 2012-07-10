@@ -1,6 +1,5 @@
 sites/default/files
 sites/default/private
-sites/default/settings.php
 cache/
 files/
 /README.txt
